@@ -22,7 +22,7 @@ GradientBoosting_Analysis : This notebook focuses on the Gradient Boosting Class
 #### Models_3 : 
 
 This folder contains the iPython notebooks to model using Decision Tree and Random Forest. 
-The Preprocessing.ipynb contains the preprocessing file which requires the train_users_2.csv and test_users.csv to be in the same folder as the notebook. This will produce an output preprocessed_airbnb_train.csv and preprocessed_airbnb_test.csv .
+The Preprocess.ipynb contains the preprocessing file which requires the train_users_2.csv and test_users.csv to be in the same folder as the notebook. This will produce an output preprocessed_airbnb_train.csv and preprocessed_airbnb_test.csv .
 
 The DecisionTree.ipynb notebook has the DecisionTree models. The RandomForest.ipynb notebook has the RandomForest models. To run this notebook, preprocessed_airbnb_train.csv has to be there in the same folder as the notebooks. A copy of the generated preprocessed_airbnb_train.csv is already available in the Models_3 folder.
 
