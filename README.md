@@ -10,6 +10,11 @@ The notebooks use Seaborn in order to create charts. See https://stanford.edu/~m
 
 In order to run the XGBoost notebook, the XGBoost library needs to be installed. See https://github.com/dmlc/xgboost/tree/master/python-package for installation instructions
 
+### Data Folder : 
+
+This contains the data files train_users_2.csv and test_users.csv.
+
+
 #### Models_1 : 
 
 This folder contains two iPython notebooks Preprocessing+Modeling and GradientBoosting_Analysis. 
@@ -37,3 +42,8 @@ The Preprocess.ipynb contains the preprocessing file which requires the train_us
 The DecisionTree.ipynb notebook has the DecisionTree models. The RandomForest.ipynb notebook has the RandomForest models. To run this notebook, preprocessed_airbnb_train.csv has to be there in the same folder as the notebooks. A copy of the generated preprocessed_airbnb_train.csv is already available in the Models_3 folder.
 
 The Experiments.ipynb notebook contains some experiments like binary classification, three class classification and some interesting findings observed while building those models.This also requires the preprocessed_airbnb_train.csv to be in the same folder as the notebook.
+
+
+#### Ensemble Voting Classifier
+
+The notebook VotingEnsemble.ipynb contains the voting classifier which uses the models LDA, Logistic regression and Decision Trees. To run this, the data file Models_3/preprocessed_airbnb_train.csv has to be in the same folder as the notebook.
