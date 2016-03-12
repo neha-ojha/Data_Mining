@@ -1,6 +1,7 @@
 # Airbnb New User Bookings
  
-Predicting Airbnb user's first booking destination using Data Mining.
+Predicting Airbnb user's first booking destination using Data Mining. 
+Kaggle Competition : https://www.kaggle.com/c/airbnb-recruiting-new-user-bookings
 
 ### Installation Requirements : 
   
@@ -12,7 +13,8 @@ In order to run the XGBoost notebook, the XGBoost library needs to be installed.
 
 ### Data Folder : 
 
-This contains the data files train_users_2.csv and test_users.csv.
+This contains the data files train_users_2.csv and test_users.csv. This project also requires sessions.csv which can be obtained from the kaggle competition site : https://www.kaggle.com/c/airbnb-recruiting-new-user-bookings/data
+(Couldn't upload the sessions data file in the git as the size of the file is large)
 
 
 #### Models_1 : 
