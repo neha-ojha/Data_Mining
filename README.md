@@ -6,6 +6,10 @@ Predicting Airbnb user's first booking destination using Data Mining.
   
 To run this project, you will need Jupyter - an interative iPython environment that runs in your web browser. The easiest way is to install Ananconda - https://www.continuum.io/downloads 
 
+The notebooks use Seaborn in order to create charts. See https://stanford.edu/~mwaskom/software/seaborn/installing.html to install this library
+
+In order to run the XGBoost notebook, the XGBoost library needs to be installed. See https://github.com/dmlc/xgboost/tree/master/python-package for installation instructions
+
 #### Models_1 : 
 
 This folder contains two iPython notebooks Preprocessing+Modeling and GradientBoosting_Analysis. 
@@ -18,6 +22,12 @@ GradientBoosting_Analysis : This notebook focuses on the Gradient Boosting Class
 
 #### Models_2 :
 
+This folder contains 3 iPython notebooks. The notebooks require that train_user2.csv, test_users.csv, and sessions.csv be in the same folder.
+
+Run Preprocessing.ipynb in order to prepare the data. Running this file creates the intermediate files which will be used by the other two notebooks.
+
+logisticreg+ada.ipynb contains the various models for logistic regression, and AdaBoost with logistic regression.
+xgboost_qda.ipynb contains the results of XGBoost and Quadratic Discriminant Analysis
 
 #### Models_3 : 
 
