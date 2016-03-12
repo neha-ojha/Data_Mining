@@ -1,6 +1,6 @@
 # Airbnb New User Bookings
  
-Predicting new Airbnb user's first booking destination using Data Mining.
+Predicting Airbnb user's first booking destination using Data Mining.
 
 ### Installation Requirements : 
   
