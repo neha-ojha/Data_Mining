@@ -12,6 +12,7 @@ This folder contains two iPython notebooks Preprocessing+Modeling and GradientBo
 Each notebook contains comprehensive steps to preprocess the data and run the models individually. The notebooks require train_users2.csv and sessions.csv to be in the same folder as the notebooks. 
 
 Preprocessing+Modeling : This notebook has analysis on Linear Discriminant Analysis, Quadratic Discriminant Analysis, Gaussian Naive Bayes, AdaBoost and Gradient Boosting Classifiers.
+
 GradientBoosting_Analysis : This notebook focuses on the Gradient Boosting Classifier.
 
 
